@@ -23,6 +23,8 @@ baseurl: "/airspace-jekyll"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
+remote_theme: ndrewtl/airspace-jekyll
+
 # Build settings
 markdown: kramdown
 
