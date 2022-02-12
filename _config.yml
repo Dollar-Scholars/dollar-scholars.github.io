@@ -24,7 +24,7 @@ cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
 # remote_theme: ndrewtl/airspace-jekyll
-theme: airspace-jekyll
+remote-theme: airspace-jekyll
 
 # Build settings
 markdown: kramdown
