@@ -23,7 +23,7 @@ baseurl: "" # Set this value to "" if you want your site to be root
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
-#remote_theme: ndrewtl/airspace-jekyll
+remote_theme: ndrewtl/airspace-jekyll
 #remote-theme: airspace-jekyll
 
 # Build settings
