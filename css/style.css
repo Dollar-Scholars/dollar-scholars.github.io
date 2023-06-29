@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*=== MEDIA QUERY ===*/
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,500,600);
-@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url(https://fonts.googleapis.com/css?family=Volkhov:400italic);
 body {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
@@ -35,7 +35,7 @@ h4 {
 
 p {
   color: #7B7B7B;
-  font-size: 15px;
+  font-size: 14pt;
   font-family: "Roboto", sans-serif;
 }
 
