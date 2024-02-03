@@ -1,9 +1,9 @@
-# economicsdiscord.github.io
+# dollarscholars.github.io
 
 A port of the Airspace theme by ThemeFisher to Jekyll.
 
-Website in progress by Economics Discord staff.
+Website in progress by Dollar Scholars staff.
 
-site: https://economicsdiscord.github.io
+site: https://dollarscholars.github.io
 
-Join our Discord: https://discord.gg/economics
+More information: with Dr. Dickinson.
