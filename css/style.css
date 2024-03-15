@@ -1561,7 +1561,7 @@ font header .navbar-default .navbar-nav li a:hover {
   transform: scale3D(1.1, 1.1, 1);
 }
 .about .about-img img {
-  opacity: 0.6;
+  opacity: 0.9;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
