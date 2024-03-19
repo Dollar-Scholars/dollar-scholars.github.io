@@ -333,7 +333,6 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   color: #333;
   display: inline-block;
   padding: 7px 12px;
-  color: #fff;
 }
 .social-media-icons ul li .twitter {
   background: #00aced;
