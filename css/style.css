@@ -2343,8 +2343,8 @@ font header .navbar-default .navbar-nav li a:hover {
 .footer {
   background: #F5F5F5;
   text-align: center;
-  padding-top: 48px;
-  padding-bottom: 55px;
+  padding-top: 25px;
+  padding-bottom: 20px;
 }
 .footer p {
   font-size: 13px;
