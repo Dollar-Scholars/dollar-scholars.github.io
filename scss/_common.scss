@@ -20,8 +20,26 @@ blockquote {
   text-align: left;
   color:#777;
 }
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 13px 13px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
 .navbar-toggle .icon-bar {
   background: $primary-color;
+  display: block;
+  width: 46px;
+  height: 4px;
+  border-radius: 3px;
 }
 
 input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
@@ -308,8 +326,6 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
         color: #333;
         display: inline-block;
         padding:7px 12px;
-        color: $light;
-        
       }
       .twitter {
         background: #00aced ;
@@ -526,7 +542,7 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
     right: 0;
     width: 100%;
     height: 100%;
-    background: #1d192c;
+    background: $overly-color;
     opacity: 0.8;
   }
 }
