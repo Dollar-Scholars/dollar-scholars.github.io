@@ -9,4 +9,5 @@ site: https://dollar-scholars.github.io
 
 site: https://dollarscholars.org
 
-More information: with Dr. Dickinson.
+More information: jeff@dollarscholars.org
+
