@@ -1960,6 +1960,12 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #F6F6F6;
 }
 
+.blog-img {
+  border-radius: 1%;
+  padding: 10px;
+  width: 75%;
+}
+
 .post {
   background: #fff;
   margin-bottom: 40px;
