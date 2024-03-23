@@ -120,6 +120,10 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   padding: 14px 35px;
   text-transform: uppercase;
   border-radius: 0;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 .btn-main.btn-icon i, .btn-icon.btn-small i, .btn-icon.btn-transparent i {
@@ -643,7 +647,6 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .navigation .navbar-brand {
   padding-top: 5px;
-  height: -moz-fit-content;
   height: fit-content;
 }
 .navigation .navbar {
@@ -676,6 +679,10 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: normal;
   color: #808080;
   padding: 10px 20px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .navigation .navbar .dropdown-menu a:hover {
@@ -841,6 +848,10 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #fff;
   margin: 2px;
   border-radius: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -1379,6 +1390,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .single-product-slider .carousel-indicators li {
   background-color: transparent;
+  -webkit-border-radius: 0;
   border-radius: 0;
   display: inline-block;
   height: auto;
@@ -1397,6 +1409,9 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .single-product-details .color-swatches {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
 }
@@ -1426,6 +1441,9 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .single-product-details .product-size {
   margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
 }
@@ -1467,6 +1485,9 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .single-product-details .product-quantity {
   margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
 }
@@ -1560,6 +1581,10 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .about .about-img img {
   opacity: 0.6;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 .about .section-title {
@@ -1891,6 +1916,10 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .widget.widget-category ul li a {
   color: #837f7e;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .widget.widget-category ul li a:before {
@@ -1912,6 +1941,10 @@ font header .navbar-default .navbar-nav li a:hover {
   border: 1px solid #dedede;
   border-radius: 30px;
   font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .widget.widget-tag ul li a:hover {
@@ -1925,6 +1958,12 @@ font header .navbar-default .navbar-nav li a:hover {
 ==================================================================*/
 .blog {
   background: #F6F6F6;
+}
+
+.blog-img {
+  border-radius: 1%;
+  padding: 10px;
+  width: 75%;
 }
 
 .post {
@@ -1992,6 +2031,10 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .post-pagination > li > a {
   color: #000;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .post-pagination > li > a:hover {
@@ -2378,4 +2421,4 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .footer .copyright a {
   font-weight: 600;
-}/*# sourceMappingURL=style.css.map */
+}
